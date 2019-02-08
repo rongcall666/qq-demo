@@ -5,9 +5,8 @@ import org.springframework.context.ApplicationContext;
 
 
 /**
- * @author:weijr
+ * @author:rong
  * @Description
- * @Date:create in ${time} ${date}
  */
 public class Test {
     public static void main(String[] agrs) throws Exception{

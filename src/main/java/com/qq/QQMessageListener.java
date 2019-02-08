@@ -7,9 +7,8 @@ import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 
 /**
- * @author:weijr
+ * @author:rong
  * @Description
- * @Date:create in ${time} ${date}
  */
 @Component(value = "qqMessageListener")
 public class QQMessageListener implements MessageListener {

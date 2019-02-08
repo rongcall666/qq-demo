@@ -1,5 +1,6 @@
-package com.qq;
+package com.wechat;
 
+import org.apache.camel.component.jms.JmsTemporaryQueueEndpoint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Component;
@@ -9,15 +10,14 @@ import org.springframework.stereotype.Component;
  * @Description
  */
 @Component
-public class QQMessageSend {
+public class WechatMessageSend {
 
     @Autowired
     private JmsTemplate jmsTemplate;
 
 
     public void send(){
-        System.out.println("请输入要发送的内容！");
-        jmsTemplate.send(new QQMessageCreator());
+        jmsTemplate.send(new WechatMessageCreator());
     }
 
 }

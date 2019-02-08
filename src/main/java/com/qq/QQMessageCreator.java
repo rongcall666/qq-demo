@@ -9,9 +9,8 @@ import javax.jms.Session;
 import java.util.Scanner;
 
 /**
- * @author:weijr
+ * @author:rong
  * @Description
- * @Date:create in ${time} ${date}
  */
 public class QQMessageCreator implements MessageCreator {
     public Message createMessage(Session session) throws JMSException {
